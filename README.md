@@ -1,1 +1,1 @@
-this directory contains C-program files 
+this is the debugging directory
