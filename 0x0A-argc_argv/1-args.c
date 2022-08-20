@@ -7,8 +7,8 @@
  *
  * Return: Always 0 (Success)
  */
-int main(int argc, char *argv[])
+int main(int argc, char *argv[] _attribuute_((unused)))
 {
-	printf("%d", argc);
+	printf("%d", argc - 1);
 	return (0);
 }
